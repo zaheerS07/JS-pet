@@ -1,0 +1,2687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Free CSS | Free CSS Templates | Demo of the HTML CSS Template Pet Shop
+    </title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Roboto, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // <----------------------Navbar1-Section-Start------>
+
+      const addressbar = document.createElement("div");
+      addressbar.style.width = "100%";
+      addressbar.style.height = "max-content";
+      // addressbar.style.border="1px solid black"
+      addressbar.style.display = "flex";
+      // addressbar.style.
+      document.body.appendChild(addressbar);
+
+      var address = document.createElement("div");
+      address.style.width = "34%";
+      address.style.height = "12vh";
+      address.style.border = "1px solid silver ";
+      address.style.position = "relative";
+      address.style.display = "flex";
+      address.style.justifyContent = "center";
+      address.style.alignItems = "center";
+      address.style.flexDirection = "column";
+      addressbar.appendChild(address);
+
+      var icon = document.createElement("i");
+      icon.setAttribute("class", "fa-solid fa-location-dot");
+      icon.style.fontSize = "40px";
+      icon.style.color = "#7AB730";
+      icon.style.position = "absolute";
+      icon.style.left = "24%";
+      address.appendChild(icon);
+
+      var heading = document.createElement("h1");
+      heading.innerHTML = "OUR OFFICE";
+      heading.style.fontSize = "20px";
+      heading.style.marginLeft = "-20px";
+      heading.style.fontWeight = "600";
+      address.appendChild(heading);
+
+      var addressh1 = document.createElement("p");
+      addressh1.innerHTML = "123 Street, New York, USA";
+      addressh1.style.color = "slategrey";
+      addressh1.style.marginLeft = "50px";
+      addressh1.style.marginTop = "5px";
+      address.appendChild(addressh1);
+
+      var address = document.createElement("div");
+      address.style.width = "33%";
+      address.style.height = "12vh";
+      address.style.border = "1px solid silver ";
+      address.style.position = "relative";
+      address.style.display = "flex";
+      address.style.justifyContent = "center";
+      address.style.alignItems = "center";
+      address.style.flexDirection = "column";
+      addressbar.appendChild(address);
+
+      var icon = document.createElement("i");
+      icon.setAttribute("class", "fa-regular fa-envelope-open");
+      icon.style.fontSize = "40px";
+      icon.style.color = "#7AB730";
+      icon.style.position = "absolute";
+      icon.style.left = "24%";
+      address.appendChild(icon);
+
+      var heading = document.createElement("h1");
+      heading.innerHTML = "EMAIL US";
+      heading.style.fontSize = "20px";
+      heading.style.marginLeft = "-20px";
+      heading.style.fontWeight = "600";
+      address.appendChild(heading);
+
+      var addressh1 = document.createElement("p");
+      addressh1.innerHTML = "mail@domain.com";
+      addressh1.style.color = "slategrey";
+      addressh1.style.marginLeft = "27px";
+      addressh1.style.marginTop = "5px";
+      address.appendChild(addressh1);
+
+      var address = document.createElement("div");
+      address.style.width = "33%";
+      address.style.height = "12vh";
+      address.style.border = "1px solid silver ";
+      address.style.position = "relative";
+      address.style.display = "flex";
+      address.style.justifyContent = "center";
+      address.style.alignItems = "center";
+      address.style.flexDirection = "column";
+      addressbar.appendChild(address);
+
+      var icon = document.createElement("i");
+      icon.setAttribute("class", "fa-solid fa-mobile-screen-button");
+      icon.style.fontSize = "40px";
+      icon.style.color = "#7AB730";
+      icon.style.position = "absolute";
+      icon.style.left = "26%";
+      address.appendChild(icon);
+
+      var heading = document.createElement("h1");
+      heading.innerHTML = "CALL US";
+      heading.style.fontSize = "20px";
+      heading.style.marginLeft = "-20px";
+      heading.style.fontWeight = "600";
+      address.appendChild(heading);
+
+      var addressh1 = document.createElement("p");
+      addressh1.innerHTML = "+012 345 6789";
+      addressh1.style.color = "slategrey";
+      addressh1.style.marginLeft = "10px";
+      addressh1.style.marginTop = "5px";
+      address.appendChild(addressh1);
+
+      // <----------------------Navbar2-Section-Start------>
+
+      let nav2 = document.createElement("div");
+      nav2.style.height = "13vh";
+      // nav2.style.border = "1px solid black"
+      nav2.style.display = "flex";
+      nav2.style.justifyContent = "space-between";
+      document.body.appendChild(nav2);
+
+      let logo = document.createElement("div");
+      // logo.style.border = "1px solid black";
+      logo.style.width = "max-content";
+      logo.style.display = "flex";
+      logo.style.margin = "25px 40px";
+      nav2.appendChild(logo);
+
+      let nav2_icon = document.createElement("i");
+      nav2_icon.setAttribute("class", "fa-solid fa-house-laptop");
+      nav2_icon.style.color = "#7AB730";
+      nav2_icon.style.fontSize = "40px";
+      logo.appendChild(nav2_icon);
+
+      let headerh1 = document.createElement("h1");
+      headerh1.innerHTML = "PET SHOP";
+      headerh1.style.marginLeft = "20px";
+      headerh1.style.color = " rgb(49, 45, 45)";
+      logo.appendChild(headerh1);
+
+      let nav = document.createElement("div");
+      // nav.style.border = "1px solid red"
+      nav2.appendChild(nav);
+
+      let navul = document.createElement("ul");
+      // navul.style.border = "1px solid green"
+      navul.style.display = "flex";
+      navul.style.listStyle = "none";
+      nav2.appendChild(navul);
+
+      var ulli = document.createElement("li");
+      ulli.innerHTML = "HOME";
+      ulli.style.margin = "0 20px";
+      ulli.style.padding = "30px 0";
+      ulli.style.fontWeight = "700";
+      ulli.style.fontSize = "17px";
+      ulli.style.color = "#7AB730";
+      navul.appendChild(ulli);
+
+      var ulli = document.createElement("li");
+      ulli.innerHTML = "ABOUT";
+      ulli.style.margin = "0 20px";
+      ulli.style.padding = "30px 0";
+      ulli.style.fontWeight = "700";
+      ulli.style.fontSize = "17px";
+      navul.appendChild(ulli);
+
+      var ulli = document.createElement("li");
+      ulli.innerHTML = "SERVICE";
+      ulli.style.margin = "0 20px";
+      ulli.style.fontWeight = "700";
+      ulli.style.padding = "30px 0";
+      ulli.style.fontSize = "17px";
+      navul.appendChild(ulli);
+
+      var ulli = document.createElement("li");
+      ulli.innerHTML = "PRODUCT";
+      ulli.style.margin = "0 20px";
+      ulli.style.fontWeight = "700";
+      ulli.style.padding = "30px 0";
+      ulli.style.fontSize = "17px";
+      navul.appendChild(ulli);
+
+      var ulli = document.createElement("li");
+      ulli.innerHTML = "PAGES";
+      ulli.style.margin = " 0 20px";
+      ulli.style.fontWeight = "700";
+      ulli.style.padding = "30px 0";
+      ulli.style.fontSize = "17px";
+      navul.appendChild(ulli);
+
+      var ulli = document.createElement("li");
+      ulli.innerHTML = "CONTACT";
+      // ulli.style.border = "2x solid blue";
+      ulli.style.backgroundColor = "#7AB730";
+      ulli.style.color = "white";
+      ulli.style.boxSizing = "border-box";
+      ulli.style.padding = "30px 50px";
+      ulli.style.marginLeft = " 10px";
+      ulli.style.fontWeight = "500";
+      ulli.style.fontSize = "20px";
+      navul.appendChild(ulli);
+
+      var arrow = document.createElement("i");
+      console.log(arrow);
+      arrow.setAttribute("class", "fa-solid fa-arrow-right");
+      arrow.style.marginLeft = "30px";
+      ulli.appendChild(arrow);
+
+      // <------------------Bannar-Section-Start---------->
+
+      var banner = document.createElement("div");
+      console.log(banner);
+      document.body.appendChild(banner);
+      banner.style.height = "100vh";
+      banner.style.width = "100%";
+      // banner.style.marginTop="10vh"
+      banner.style.backgroundImage = "url('./pet-img/hero.jpg')";
+      banner.style.backgroundSize = "cover";
+      banner.style.backgroundPosition = "top";
+      banner.style.display = "flex";
+      banner.style.padding = "0 120px";
+      banner.style.boxSizing = "border-box";
+      banner.style.alignItems = "center";
+
+      var hero = document.createElement("div");
+      console.log(hero);
+      banner.appendChild(hero);
+      hero.style.height = "max-content";
+      hero.style.width = "60%";
+      // hero.style.border="1px solid red"
+
+      var heading1 = document.createElement("h1");
+      console.log(heading1);
+      hero.appendChild(heading1);
+      heading1.innerHTML = "pet shop";
+      heading1.style.fontSize = "80px";
+      heading1.style.color = "black";
+      heading1.style.textTransform = "capitalize";
+
+      var heading2 = document.createElement("h1");
+      console.log(heading2);
+      hero.appendChild(heading2);
+      heading2.innerHTML = "MAKE YOUR PETS HAPPY";
+      heading2.style.fontSize = "40px";
+      heading2.style.color = "white";
+      heading2.style.textTransform = "capitalize";
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      hero.appendChild(para1);
+      para1.innerHTML =
+        "Dolore tempor clita lorem rebum kasd eirmod dolore diam <br> eos kasd. Kasd clita ea justo est sed kasd erat clita sea";
+      para1.style.fontSize = "23px";
+      para1.style.fontWeight = "lighter";
+      para1.style.color = "white";
+      para1.style.marginTop = "20px";
+
+      var button1 = document.createElement("button");
+      console.log(button1);
+      hero.appendChild(button1);
+      button1.innerHTML = "read more";
+      button1.style.fontSize = "20px";
+      button1.style.fontWeight = "lighter";
+      button1.style.color = "white";
+      button1.style.padding = "20px 40px";
+      button1.style.background = "transparent";
+      button1.style.border = "2px solid white";
+      button1.style.borderRadius = "3px";
+      button1.style.textTransform = "capitalize";
+      button1.style.marginTop = "60px";
+
+      var icon1 = document.createElement("i");
+      console.log(icon1);
+      hero.appendChild(icon1);
+      icon1.setAttribute("class", "fa-solid fa-play");
+      icon1.style.backgroundColor = "white";
+      icon1.style.color = "#7AB730";
+      icon1.style.fontSize = "23px";
+      icon1.style.padding = "20px 23px";
+      icon1.style.borderRadius = "50%";
+      icon1.style.marginLeft = "30px";
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      hero.appendChild(para2);
+      para2.innerHTML = "play video";
+      para2.style.display = "inline-block";
+      para2.style.marginLeft = "15px";
+      para2.style.fontSize = "18px";
+      para2.style.color = "white";
+      para2.style.textTransform = "capitalize";
+
+      // <---------------------About-Section-Start--------->
+
+      var con2 = document.createElement("div");
+      console.log(con2);
+      document.body.appendChild(con2);
+      con2.style.height = "100vh";
+      con2.style.width = "100%";
+      con2.style.display = "flex";
+      con2.style.padding = "5% 8%";
+      con2.style.boxSizing = "border-box";
+
+      var left1 = document.createElement("div");
+      console.log(left1);
+      con2.appendChild(left1);
+      left1.style.backgroundImage = "url('./pet-img/about.jpg')";
+      left1.style.backgroundSize = "cover";
+      left1.style.backgroundPosition = "top";
+      left1.style.height = "100%";
+      left1.style.width = "40%";
+      // left1.style.border="1px solid red"
+
+      var right1 = document.createElement("div");
+      console.log(right1);
+      con2.appendChild(right1);
+      right1.style.height = "100%";
+      right1.style.width = "60%";
+      right1.style.paddingLeft = "50px";
+      // right1.style.border="1px solid red"
+
+      var top1 = document.createElement("div");
+      console.log(top1);
+      right1.appendChild(top1);
+      top1.style.height = "max-content";
+      top1.style.width = "100%";
+      // top1.style.background="red"
+      top1.style.paddingLeft = "50px";
+      top1.style.borderLeft = "5px solid #7AB730";
+
+      var heading3 = document.createElement("h1");
+      console.log(heading3);
+      top1.appendChild(heading3);
+      heading3.innerHTML = "ABOUT US";
+      heading3.style.fontSize = "20px";
+      heading3.style.color = "#7AB730";
+      heading3.style.textTransform = "capitalize";
+
+      var heading4 = document.createElement("h1");
+      console.log(heading4);
+      top1.appendChild(heading4);
+      heading4.innerHTML = "WE KEEP YOUR PETS HAPPY <br> ALL TIME";
+      heading4.style.fontSize = "50px";
+      heading4.style.color = "black";
+      heading4.style.lineHeight = "45px";
+      heading4.style.marginTop = "15px";
+      heading4.style.textTransform = "capitalize";
+
+      var heading5 = document.createElement("h1");
+      console.log(heading5);
+      right1.appendChild(heading5);
+      heading5.innerHTML =
+        "Diam dolor diam ipsum tempor sit. Clita erat ipsum et  lorem stet no <br> labore lorem sit clita duo justo magna dolore";
+      heading5.style.fontSize = "23px";
+      heading5.style.fontWeight = "700";
+      heading5.style.color = "#656565";
+      heading5.style.marginTop = "50px";
+
+      var bottom1 = document.createElement("div");
+      console.log(bottom1);
+      right1.appendChild(bottom1);
+      bottom1.style.height = "49%";
+      bottom1.style.width = "100%";
+      bottom1.style.background = "#F3F3F3";
+      bottom1.style.marginTop = "55px";
+
+      var button2 = document.createElement("button");
+      console.log(button2);
+      bottom1.appendChild(button2);
+      button2.style.height = "40px";
+      button2.style.width = "40%";
+      button2.style.color = "white";
+      button2.style.background = "#7AB730";
+      button2.style.marginTop = "20px";
+      button2.style.marginLeft = "50px";
+      button2.innerHTML = "OUR MISSION";
+      button2.style.border = "none";
+
+      var button3 = document.createElement("button");
+      console.log(button3);
+      bottom1.appendChild(button3);
+      button3.style.height = "40px";
+      button3.style.width = "40%";
+      button3.style.color = "#7AB730";
+      button3.style.background = " #F3F3F3";
+      button3.style.marginTop = "20px";
+      button3.innerHTML = "OUR VISION";
+      button3.style.marginLeft = "20px";
+      button3.style.border = "none";
+
+      var para3 = document.createElement("p");
+      console.log(para3);
+      bottom1.appendChild(para3);
+      para3.style.padding = "0px 30px";
+      para3.innerHTML =
+        "Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna";
+      para3.style.marginTop = "15px";
+      para3.style.lineHeight = "25px";
+      para3.style.color = "#808080";
+
+      // <--------------Service-Section-Start------------->
+
+      var top2 = document.createElement("div");
+      console.log(top2);
+      document.body.appendChild(top2);
+      top2.style.height = "22vh";
+      top2.style.width = "85%";
+      top2.style.margin = "auto";
+      // top2.style.background="red"
+      top2.style.paddingLeft = "50px";
+      top2.style.boxSizing = "border-box";
+      top2.style.borderLeft = "5px solid #7AB730";
+
+      var heading6 = document.createElement("h1");
+      console.log(heading6);
+      top2.appendChild(heading6);
+      heading6.innerHTML = "SERVICES";
+      heading6.style.fontSize = "23px";
+      heading6.style.color = "#7AB730";
+
+      var heading7 = document.createElement("h1");
+      console.log(heading7);
+      top2.appendChild(heading7);
+      heading7.innerHTML = "OUR EXCELLENT PET <br> CARE SERVICES";
+      heading7.style.fontSize = "50px";
+      heading7.style.color = "black";
+      heading7.style.lineHeight = "50px";
+      heading7.style.marginTop = "15px";
+      heading7.style.textTransform = "capitalize";
+
+      // con3-------------
+
+      var con3 = document.createElement("div");
+      console.log(con3);
+      document.body.appendChild(con3);
+      con3.style.height = "100vh";
+      con3.style.width = "85%";
+      con3.style.margin = "auto";
+      con3.style.display = "flex";
+      con3.style.flexWrap = "wrap";
+      con3.style.justifyContent = "space-between";
+      // con3.style.border="1px solid red"
+      con3.style.marginTop = "50px";
+
+      // one----------------
+
+      var one = document.createElement("div");
+      console.log(one);
+      con3.appendChild(one);
+      one.style.height = "25%";
+      one.style.display = "flex";
+      one.style.width = "48%";
+      one.style.background = "#F3F3F3";
+      // one.style.border = "1px solid black";
+
+      var left2 = document.createElement("div");
+      console.log(left2);
+      one.appendChild(left2);
+      left2.style.height = "100%";
+      left2.style.width = "25%";
+      // left2.style.background="red"
+      left2.style.display = "flex";
+      left2.style.justifyContent = "center";
+      left2.style.alignItems = "center";
+
+      var icon2 = document.createElement("i");
+      console.log(icon2);
+      left2.appendChild(icon2);
+      icon2.setAttribute("class", "fa-solid fa-house");
+      icon2.style.color = "#7AB730";
+      icon2.style.fontSize = "60px";
+
+      var right2 = document.createElement("div");
+      console.log(right2);
+      one.appendChild(right2);
+      right2.style.height = "100%";
+      right2.style.width = "75%";
+      right2.style.padding = "0px 15px";
+      // right2.style.background = "green";
+
+      var heading9 = document.createElement("h1");
+      console.log(heading9);
+      right2.appendChild(heading9);
+      heading9.innerHTML = "PET BOARDING";
+      heading9.style.fontSize = "20px";
+      heading9.style.color = "black";
+      heading9.style.marginTop = "20px";
+
+      var para6 = document.createElement("p");
+      console.log(para6);
+      right2.appendChild(para6);
+      para6.innerHTML =
+        "Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit";
+      para6.style.fontSize = "16px";
+      para6.style.color = "black";
+      para6.style.opacity = "0.6";
+      para6.style.marginTop = "10px";
+
+      var para5 = document.createElement("p");
+      console.log(para5);
+      right2.appendChild(para5);
+      para5.innerHTML = "read more";
+      para5.style.fontSize = "16px";
+      para5.style.color = "#7AB730";
+      para5.style.textTransform = "capitalize";
+      para5.style.marginTop = "10px";
+      para5.style.display = "inline-block";
+
+      var icon3 = document.createElement("i");
+      console.log(icon3);
+      right2.appendChild(icon3);
+      icon3.setAttribute("class", "fa-solid fa-arrow-right-long");
+      icon3.style.color = "#7AB730";
+      icon3.style.fontSize = "20px";
+      icon3.style.marginLeft = "10px";
+      icon3.style.verticalAlign = "bottom";
+
+      // two----------------
+
+      var two = document.createElement("div");
+      console.log(two);
+      con3.appendChild(two);
+      two.style.height = "25%";
+      two.style.width = "48%";
+      two.style.display = "flex";
+      two.style.background = "#F3F3F3";
+      two.style.float = "right";
+
+      var left3 = document.createElement("div");
+      console.log(left3);
+      two.appendChild(left3);
+      left3.style.height = "100%";
+      left3.style.width = "25%";
+      // left3.style.background="red"
+      left3.style.display = "flex";
+      left3.style.justifyContent = "center";
+      left3.style.alignItems = "center";
+
+      var icon2 = document.createElement("i");
+      console.log(icon2);
+      left3.appendChild(icon2);
+      icon2.setAttribute("class", "fa-solid fa-house");
+      icon2.style.color = "#7AB730";
+      icon2.style.fontSize = "60px";
+
+      var right3 = document.createElement("div");
+      console.log(right3);
+      two.appendChild(right3);
+      right3.style.height = "100%";
+      right3.style.width = "75%";
+      // right3.style.background = "green";
+      right3.style.padding = "0px 15px";
+
+      var heading9 = document.createElement("h1");
+      console.log(heading9);
+      right3.appendChild(heading9);
+      heading9.innerHTML = "PET FEEDING";
+      heading9.style.fontSize = "20px";
+      heading9.style.color = "black";
+      heading9.style.textTransform = "capitalize";
+      heading9.style.marginTop = "20px";
+
+      var para7 = document.createElement("p");
+      console.log(para7);
+      right3.appendChild(para7);
+      para7.innerHTML =
+        "Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit";
+      para7.style.fontSize = "16px";
+      para7.style.color = "black";
+      para7.style.opacity = "0.6";
+      para7.style.marginTop = "10px";
+
+      var para8 = document.createElement("p");
+      console.log(para8);
+      right3.appendChild(para8);
+      para8.innerHTML = "read more";
+      para8.style.fontSize = "16px";
+      para8.style.color = "#7AB730";
+      para8.style.textTransform = "capitalize";
+      para8.style.marginTop = "10px";
+      para8.style.display = "inline-block";
+
+      var icon3 = document.createElement("i");
+      console.log(icon3);
+      right3.appendChild(icon3);
+      icon3.setAttribute("class", "fa-solid fa-arrow-right-long");
+      icon3.style.color = "#7AB730";
+      icon3.style.fontSize = "20px";
+      icon3.style.marginLeft = "10px";
+      icon3.style.verticalAlign = "bottom";
+
+      // three----------
+
+      var three = document.createElement("div");
+      console.log(three);
+      con3.appendChild(three);
+      three.style.height = "25%";
+      three.style.display = "flex";
+      three.style.width = "48%";
+      three.style.background = "#F3F3F3";
+
+      var left4 = document.createElement("div");
+      console.log(left4);
+      three.appendChild(left4);
+      left4.style.height = "100%";
+      left4.style.width = "25%";
+      // left4.style.background="red"
+      left4.style.display = "flex";
+      left4.style.justifyContent = "center";
+      left4.style.alignItems = "center";
+
+      var icon4 = document.createElement("i");
+      console.log(icon4);
+      left4.appendChild(icon4);
+      icon4.setAttribute("class", "fa-solid fa-house");
+      icon4.style.color = "#7AB730";
+      icon4.style.fontSize = "60px";
+
+      var right4 = document.createElement("div");
+      console.log(right4);
+      three.appendChild(right4);
+      right4.style.height = "100%";
+      right4.style.width = "75%";
+      // right4.style.background="green"
+      right4.style.padding = "0px 15px";
+
+      var heading10 = document.createElement("h1");
+      console.log(heading10);
+      right4.appendChild(heading10);
+      heading10.innerHTML = "PET GROOMING";
+      heading10.style.fontSize = "20px";
+      heading10.style.color = "black";
+      heading10.style.marginTop = "20px";
+
+      var para9 = document.createElement("p");
+      console.log(para9);
+      right4.appendChild(para9);
+      para9.innerHTML =
+        "Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit";
+      para9.style.fontSize = "16px";
+      para9.style.color = "black";
+      para9.style.opacity = "0.6";
+      para9.style.marginTop = "10px";
+
+      var para10 = document.createElement("p");
+      console.log(para10);
+      right4.appendChild(para10);
+      para10.innerHTML = "read more";
+      para10.style.fontSize = "16px";
+      para10.style.color = "#7AB730";
+      para10.style.textTransform = "capitalize";
+      para10.style.marginTop = "10px";
+      para10.style.display = "inline-block";
+
+      var icon4 = document.createElement("i");
+      console.log(icon4);
+      right4.appendChild(icon4);
+      icon4.setAttribute("class", "fa-solid fa-arrow-right-long");
+      icon4.style.color = "#7AB730";
+      icon4.style.fontSize = "20px";
+      icon4.style.marginLeft = "10px";
+      icon4.style.verticalAlign = "bottom";
+
+      // four--------
+
+      var four = document.createElement("div");
+      console.log(four);
+      con3.appendChild(four);
+      four.style.height = "25%";
+      four.style.display = "flex";
+      four.style.width = "48%";
+      four.style.background = "#F3F3F3";
+      four.style.float = "right";
+
+      var left5 = document.createElement("div");
+      console.log(left5);
+      four.appendChild(left5);
+      left5.style.height = "100%";
+      left5.style.width = "25%";
+      // left5.style.background="red"
+      left5.style.display = "flex";
+      left5.style.justifyContent = "center";
+      left5.style.alignItems = "center";
+
+      var icon5 = document.createElement("i");
+      console.log(icon5);
+      left5.appendChild(icon5);
+      icon5.setAttribute("class", "fa-solid fa-house");
+      icon5.style.color = "#7AB730";
+      icon5.style.fontSize = "60px";
+
+      var right5 = document.createElement("div");
+      console.log(right5);
+      four.appendChild(right5);
+      right5.style.height = "100%";
+      right5.style.width = "75%";
+      // right5.style.background="green"
+      right5.style.padding = "0px 15px";
+
+      var heading11 = document.createElement("h1");
+      console.log(heading11);
+      right5.appendChild(heading11);
+      heading11.innerHTML = "PET TRAINING";
+      heading11.style.fontSize = "20px";
+      heading11.style.color = "black";
+      heading11.style.marginTop = "20px";
+
+      var para11 = document.createElement("p");
+      console.log(para11);
+      right5.appendChild(para11);
+      para11.innerHTML =
+        "Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit";
+      para11.style.fontSize = "16px";
+      para11.style.color = "black";
+      para11.style.opacity = "0.6";
+      para11.style.marginTop = "10px";
+
+      var para12 = document.createElement("p");
+      console.log(para12);
+      right5.appendChild(para12);
+      para12.innerHTML = "read more";
+      para12.style.fontSize = "16px";
+      para12.style.color = "#7AB730";
+      para12.style.textTransform = "capitalize";
+      para12.style.marginTop = "10px";
+      para12.style.display = "inline-block";
+
+      var icon6 = document.createElement("i");
+      console.log(icon6);
+      right5.appendChild(icon6);
+      icon6.setAttribute("class", "fa-solid fa-arrow-right-long");
+      icon6.style.color = "#7AB730";
+      icon6.style.fontSize = "20px";
+      icon6.style.marginLeft = "10px";
+      icon6.style.verticalAlign = "bottom";
+
+      // five
+      var five = document.createElement("div");
+      console.log(five);
+      con3.appendChild(five);
+      five.style.height = "25%";
+      five.style.display = "flex";
+      five.style.width = "48%";
+      five.style.background = "#F3F3F3";
+
+      var left6 = document.createElement("div");
+      console.log(left6);
+      five.appendChild(left6);
+      left6.style.height = "100%";
+      left6.style.width = "25%";
+      // left6.style.background="red"
+      left6.style.display = "flex";
+      left6.style.justifyContent = "center";
+      left6.style.alignItems = "center";
+
+      var icon7 = document.createElement("i");
+      console.log(icon7);
+      left6.appendChild(icon7);
+      icon7.setAttribute("class", "fa-solid fa-house");
+      icon7.style.color = "#7AB730";
+      icon7.style.fontSize = "60px";
+
+      var right6 = document.createElement("div");
+      console.log(right6);
+      five.appendChild(right6);
+      right6.style.height = "100%";
+      right6.style.width = "75%";
+      // right6.style.background="green"
+      right6.style.padding = "0px 15px";
+
+      var heading12 = document.createElement("h1");
+      console.log(heading12);
+      right6.appendChild(heading12);
+      heading12.innerHTML = "PET EXERCISE";
+      heading12.style.fontSize = "20px";
+      heading12.style.color = "black";
+      heading12.style.marginTop = "20px";
+
+      var para13 = document.createElement("p");
+      console.log(para13);
+      right6.appendChild(para13);
+      para13.innerHTML =
+        "Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit";
+      para13.style.fontSize = "16px";
+      para13.style.color = "black";
+      para13.style.opacity = "0.6";
+      para13.style.marginTop = "10px";
+
+      var para14 = document.createElement("p");
+      console.log(para14);
+      right6.appendChild(para14);
+      para14.innerHTML = "read more";
+      para14.style.fontSize = "16px";
+      para14.style.color = "#7AB730";
+      para14.style.textTransform = "capitalize";
+      para14.style.marginTop = "10px";
+      para14.style.display = "inline-block";
+
+      var icon8 = document.createElement("i");
+      console.log(icon8);
+      right6.appendChild(icon8);
+      icon8.setAttribute("class", "fa-solid fa-arrow-right-long");
+      icon8.style.color = "#7AB730";
+      icon8.style.fontSize = "20px";
+      icon8.style.marginLeft = "10px";
+      icon8.style.verticalAlign = "bottom";
+
+      // six
+      var six = document.createElement("div");
+      console.log(six);
+      con3.appendChild(six);
+      six.style.height = "25%";
+      six.style.width = "48%";
+      six.style.display = "flex";
+      six.style.background = "#F3F3F3";
+
+      var left7 = document.createElement("div");
+      console.log(left7);
+      six.appendChild(left7);
+      left7.style.height = "100%";
+      left7.style.width = "25%";
+      // left7.style.background="red"
+      left7.style.display = "flex";
+      left7.style.justifyContent = "center";
+      left7.style.alignItems = "center";
+
+      var icon9 = document.createElement("i");
+      console.log(icon9);
+      left7.appendChild(icon9);
+      icon9.setAttribute("class", "fa-solid fa-house");
+      icon9.style.color = "#7AB730";
+      icon9.style.fontSize = "60px";
+
+      var right7 = document.createElement("div");
+      console.log(right7);
+      six.appendChild(right7);
+      right7.style.height = "100%";
+      right7.style.width = "75%";
+      // right7.style.background="green"
+      right7.style.padding = "0px 15px";
+
+      var heading15 = document.createElement("h1");
+      console.log(heading15);
+      right7.appendChild(heading15);
+      heading15.innerHTML = "PET TREATMENT";
+      heading15.style.fontSize = "20px";
+      heading15.style.color = "black";
+      heading15.style.marginTop = "20px";
+
+      var para15 = document.createElement("p");
+      console.log(para15);
+      right7.appendChild(para15);
+      para15.innerHTML =
+        "Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit";
+      para15.style.fontSize = "16px";
+      para15.style.color = "black";
+      para15.style.opacity = "0.6";
+      para15.style.marginTop = "10px";
+
+      var para16 = document.createElement("p");
+      console.log(para16);
+      right7.appendChild(para16);
+      para16.innerHTML = "read more";
+      para16.style.fontSize = "16px";
+      para16.style.color = "#7AB730";
+      para16.style.textTransform = "capitalize";
+      para16.style.marginTop = "10px";
+      para16.style.display = "inline-block";
+
+      var icon10 = document.createElement("i");
+      console.log(icon10);
+      right7.appendChild(icon10);
+      icon10.setAttribute("class", "fa-solid fa-arrow-right-long");
+      icon10.style.color = "#7AB730";
+      icon10.style.fontSize = "20px";
+      icon10.style.marginLeft = "10px";
+      icon10.style.verticalAlign = "bottom";
+
+      // <--------------Product-Section-Start------------->
+      // <================================================>
+      var pro_container = document.createElement("div");
+      console.log(pro_container);
+      pro_container.style.height = "auto";
+      pro_container.style.width = "100%";
+      // pro_container.style.border = "1px solid black";
+      pro_container.style.paddingBottom = "5%";
+      document.body.appendChild(pro_container);
+
+      var content_box = document.createElement("div");
+      console.log(content_box);
+      content_box.style.height = "auto";
+      content_box.style.width = "60%";
+      content_box.style.marginLeft = "7.5%";
+      content_box.style.marginTop = "4%";
+      content_box.style.borderLeft = "5px solid #7AB730";
+      content_box.style.padding = "0px 50px";
+      pro_container.appendChild(content_box);
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      para1.style.color = "#7AB730";
+      para1.style.fontWeight = "500";
+      para1.innerHTML = "PRODUCTS";
+      content_box.appendChild(para1);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "black";
+      h1.style.fontSize = "50px";
+      h1.innerHTML = "PRODUCTS FOR YOUR </br> BEST FRIENDS";
+      content_box.appendChild(h1);
+
+      // <-----------------Quality-Pet-Food-Section-Start---------------->
+      // <================================================================>
+
+      var quality_box = document.createElement("div");
+      console.log(quality_box);
+      quality_box.style.height = "auto";
+      quality_box.style.width = "85%";
+      quality_box.style.margin = "auto";
+      quality_box.style.marginTop = "3%";
+      // quality_box.style.border = "1px solid red";
+      quality_box.style.display = "flex";
+      quality_box.style.justifyContent = "space-between";
+      pro_container.appendChild(quality_box);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      quality_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/product-1.png)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_smbx1.style.marginTop = "20px";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "16px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "QUALITY PET FOODS";
+      pic_smbx2.appendChild(h6);
+
+      var h5 = document.createElement("h5");
+      console.log(h5);
+      h5.style.color = "#7AB730";
+      h5.style.fontWeight = "700";
+      h5.style.fontSize = "20px";
+      h5.style.marginTop = "5px";
+      h5.innerHTML = "$199.00";
+      pic_smbx2.appendChild(h5);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      quality_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/product-2.png)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_smbx1.style.marginTop = "20px";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "16px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "QUALITY PET FOODS";
+      pic_smbx2.appendChild(h6);
+
+      var h5 = document.createElement("h5");
+      console.log(h5);
+      h5.style.color = "#7AB730";
+      h5.style.fontWeight = "700";
+      h5.style.fontSize = "20px";
+      h5.style.marginTop = "5px";
+      h5.innerHTML = "$199.00";
+      pic_smbx2.appendChild(h5);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      quality_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/product-3.png)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_smbx1.style.marginTop = "20px";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "16px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "QUALITY PET FOODS";
+      pic_smbx2.appendChild(h6);
+
+      var h5 = document.createElement("h5");
+      console.log(h5);
+      h5.style.color = "#7AB730";
+      h5.style.fontWeight = "700";
+      h5.style.fontSize = "20px";
+      h5.style.marginTop = "5px";
+      h5.innerHTML = "$199.00";
+      pic_smbx2.appendChild(h5);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      quality_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/product-4.png)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_smbx1.style.marginTop = "20px";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "16px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "QUALITY PET FOODS";
+      pic_smbx2.appendChild(h6);
+
+      var h5 = document.createElement("h5");
+      console.log(h5);
+      h5.style.color = "#7AB730";
+      h5.style.fontWeight = "700";
+      h5.style.fontSize = "20px";
+      h5.style.marginTop = "5px";
+      h5.innerHTML = "$199.00";
+      pic_smbx2.appendChild(h5);
+
+      var arrow_mainbx = document.createElement("div");
+      console.log(arrow_mainbx);
+      arrow_mainbx.style.height = "auto";
+      arrow_mainbx.style.width = "8%";
+      // arrow_mainbx.style.border = "1px solid black";
+      arrow_mainbx.style.margin = "auto";
+      arrow_mainbx.style.marginTop = "3%";
+      arrow_mainbx.style.display = "flex";
+      arrow_mainbx.style.justifyContent = "space-between";
+      pro_container.appendChild(arrow_mainbx);
+
+      var arrow_smbx1 = document.createElement("div");
+      console.log(arrow_smbx1);
+      arrow_smbx1.style.height = "7vh";
+      arrow_smbx1.style.width = "45%";
+      // arrow_smbx1.style.border = "1px solid black";
+      arrow_smbx1.style.textAlign = "center";
+      arrow_smbx1.style.backgroundColor = "#7AB730";
+      arrow_mainbx.appendChild(arrow_smbx1);
+
+      var ic = document.createElement("i");
+      console.log(ic);
+      ic.style.color = "white";
+      ic.style.lineHeight = "7vh";
+      ic.style.fontSize = "20px";
+      ic.setAttribute("class", "fa-solid fa-arrow-left");
+      arrow_smbx1.appendChild(ic);
+
+      var arrow_smbx1 = document.createElement("div");
+      console.log(arrow_smbx1);
+      arrow_smbx1.style.height = "7vh";
+      arrow_smbx1.style.width = "45%";
+      // arrow_smbx1.style.border = "1px solid black";
+      arrow_smbx1.style.textAlign = "center";
+      arrow_smbx1.style.backgroundColor = "#7AB730";
+      arrow_mainbx.appendChild(arrow_smbx1);
+
+      var ic = document.createElement("i");
+      console.log(ic);
+      ic.style.color = "white";
+      ic.style.lineHeight = "7vh";
+      ic.style.fontSize = "20px";
+      ic.setAttribute("class", "fa-solid fa-arrow-right");
+      arrow_smbx1.appendChild(ic);
+
+      // <--------------Special-Offer-Section-Start------------->
+      // <=====================================================>
+
+      var spo_container = document.createElement("div");
+      console.log(spo_container);
+      spo_container.style.height = "65vh";
+      spo_container.style.width = "100%";
+      // spo_container.style.border = "1px solid black";
+      spo_container.style.backgroundImage = "url(./Pet-images/offer.jpg)";
+      spo_container.style.backgroundSize = "cover";
+      spo_container.style.padding = "1px";
+      document.body.appendChild(spo_container);
+
+      var content_box = document.createElement("div");
+      console.log(content_box);
+      content_box.style.height = "auto";
+      content_box.style.width = " max-content";
+      content_box.style.marginLeft = "7.5%";
+      content_box.style.marginTop = "4%";
+      content_box.style.borderLeft = "5px solid black";
+      content_box.style.padding = "0px 50px";
+      spo_container.appendChild(content_box);
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      para1.style.color = "black";
+      para1.style.fontWeight = "500";
+      para1.innerHTML = "SPECIAL OFFER";
+      content_box.appendChild(para1);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "white";
+      h1.style.fontSize = "50px";
+      h1.innerHTML = "SAVE 50% ON ALL ITEMS </br> YOUR FIRST ORDER";
+      content_box.appendChild(h1);
+
+      var content_box = document.createElement("div");
+      console.log(content_box);
+      content_box.style.height = "auto";
+      content_box.style.width = " max-content";
+      content_box.style.marginLeft = "7.5%";
+      content_box.style.marginTop = "4%";
+      // content_box.style.borderLeft = "1px solid black";
+      spo_container.appendChild(content_box);
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      para1.style.color = "white";
+      // para1.style.fontWeight = "400";
+      para1.style.fontSize = "18px";
+      para1.innerHTML =
+        "Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor </br> justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo </br> lorem. Elitr ut dolores magna sit. Sea dolore sed et.";
+      content_box.appendChild(para1);
+
+      var btn1 = document.createElement("button");
+      console.log(btn1);
+      btn1.style.padding = "18px 40px";
+      btn1.style.backgroundColor = "white";
+      btn1.innerText = "SHOP NOW";
+      btn1.style.color = "black";
+      btn1.style.border = "1px solid white";
+      btn1.style.fontWeight = "500";
+      btn1.style.fontSize = "16px";
+      btn1.style.marginTop = "20px";
+      content_box.appendChild(btn1);
+
+      var btn1 = document.createElement("button");
+      console.log(btn1);
+      btn1.style.padding = "18px 40px";
+      btn1.style.backgroundColor = "transparent";
+      btn1.innerText = "READ MORE";
+      btn1.style.color = "white";
+      btn1.style.border = "1px solid white";
+      btn1.style.fontWeight = "500";
+      btn1.style.fontSize = "16px";
+      btn1.style.marginTop = "20px";
+      btn1.style.marginLeft = "20px";
+      content_box.appendChild(btn1);
+
+      // <--------------Pricing-Plan-Section-Start------------->
+      // <=====================================================>
+
+      var price_container = document.createElement("div");
+      console.log(price_container);
+      price_container.style.height = "auto";
+      price_container.style.width = "100%";
+      // price_container.style.border = "1px solid black";
+      price_container.style.paddingBottom = "5%";
+      document.body.appendChild(price_container);
+
+      var content_box = document.createElement("div");
+      console.log(content_box);
+      content_box.style.height = "auto";
+      content_box.style.width = "60%";
+      content_box.style.marginLeft = "7.5%";
+      content_box.style.marginTop = "4%";
+      content_box.style.borderLeft = "5px solid #7AB730";
+      content_box.style.padding = "0px 50px";
+      price_container.appendChild(content_box);
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      para1.style.color = "#7AB730";
+      para1.style.fontWeight = "500";
+      para1.innerHTML = "PRICING PLAN";
+      content_box.appendChild(para1);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "black";
+      h1.style.fontSize = "50px";
+      h1.innerHTML = "COMPETITIVE PRICING </br> FOR PET SERVICES";
+      content_box.appendChild(h1);
+
+      // <============================Crads-Section-Start=================>
+      // <---------------------------------------------------------------->
+      var card_mainbx = document.createElement("div");
+      console.log(card_mainbx);
+      card_mainbx.style.height = "auto";
+      card_mainbx.style.width = "85%";
+      card_mainbx.style.margin = "auto";
+      card_mainbx.style.marginTop = "8%";
+      // card_mainbx.style.border = "1px solid red";
+      card_mainbx.style.display = "flex";
+      card_mainbx.style.justifyContent = "space-between";
+      // card_mainbx.style.position = "relative";
+      price_container.appendChild(card_mainbx);
+
+      var card_bx = document.createElement("div");
+      console.log(card_bx);
+      card_bx.style.height = "75vh";
+      card_bx.style.width = "31%";
+      // card_bx.style.border = "1px solid blue";
+      card_bx.style.backgroundColor = "#F3F3F3";
+      card_bx.style.padding = "1px";
+      card_mainbx.appendChild(card_bx);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "30px";
+      h6.style.marginTop = "50px";
+      h6.style.textAlign = "center";
+      h6.innerHTML = "BASIC";
+      card_bx.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "600";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "10px";
+      para2.style.textAlign = "center";
+      para2.innerHTML = "The Best Choice";
+      card_bx.appendChild(para2);
+
+      var numb_div = document.createElement("div");
+      console.log(numb_div);
+      numb_div.style.height = "15vh";
+      numb_div.style.width = "100%";
+      numb_div.style.backgroundColor = "#7AB730";
+      numb_div.style.marginTop = "30px";
+      numb_div.style.textAlign = "center";
+      card_bx.appendChild(numb_div);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "white";
+      h1.style.lineHeight = "15vh";
+      h1.innerText = "$49/ Mo";
+      h1.style.fontSize = "45px";
+      numb_div.appendChild(h1);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "30px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "HTML5 & CSS3";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "55%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Bootstrap v5";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "60%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Responsive Layout";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-xmark");
+      icone.style.color = "red";
+      icone.style.marginLeft = "47.5%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Browsers Compatibility";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-xmark");
+      icone.style.color = "red";
+      icone.style.marginLeft = "38.5%";
+      para2.appendChild(icone);
+
+      var btn_box = document.createElement("div");
+      console.log(btn_box);
+      btn_box.style.height = "auto";
+      btn_box.style.width = "max-content";
+      btn_box.style.margin = "auto";
+      btn_box.style.marginTop = "30px";
+      card_bx.appendChild(btn_box);
+
+      var card_btn = document.createElement("button");
+      console.log(card_btn);
+      card_btn.style.padding = "12px 35px";
+      card_btn.style.backgroundColor = "#7AB730";
+      card_btn.innerText = "ORDER NOW";
+      card_btn.style.color = "white";
+      card_btn.style.border = "1px solid white";
+      card_btn.style.fontWeight = "500";
+      card_btn.style.fontSize = "16px";
+      btn_box.appendChild(card_btn);
+
+      var card_bx = document.createElement("div");
+      console.log(card_bx);
+      card_bx.style.height = "75vh";
+      card_bx.style.width = "31%";
+      // card_bx.style.border = "1px solid blue";
+      card_bx.style.backgroundColor = "#F3F3F3";
+      card_bx.style.marginTop = "-45px";
+      card_bx.style.padding = "1px";
+      card_mainbx.appendChild(card_bx);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "30px";
+      h6.style.marginTop = "50px";
+      h6.style.textAlign = "center";
+      h6.innerHTML = "STANDARD";
+      card_bx.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "600";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "10px";
+      para2.style.textAlign = "center";
+      para2.innerHTML = "The Best Choice";
+      card_bx.appendChild(para2);
+
+      var numb_div = document.createElement("div");
+      console.log(numb_div);
+      numb_div.style.height = "15vh";
+      numb_div.style.width = "100%";
+      numb_div.style.backgroundColor = "black";
+      numb_div.style.marginTop = "30px";
+      numb_div.style.textAlign = "center";
+      card_bx.appendChild(numb_div);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "white";
+      h1.style.lineHeight = "15vh";
+      h1.innerText = "$99/ Mo";
+      h1.style.fontSize = "45px";
+      numb_div.appendChild(h1);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "30px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "HTML5 & CSS3";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "55%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Bootstrap v5";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "60%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Responsive Layout";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "47.5%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Browsers Compatibility";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-xmark");
+      icone.style.color = "red";
+      icone.style.marginLeft = "38.5%";
+      para2.appendChild(icone);
+
+      var btn_box = document.createElement("div");
+      console.log(btn_box);
+      btn_box.style.height = "auto";
+      btn_box.style.width = "max-content";
+      btn_box.style.margin = "auto";
+      btn_box.style.marginTop = "30px";
+      card_bx.appendChild(btn_box);
+
+      var card_btn = document.createElement("button");
+      console.log(card_btn);
+      card_btn.style.padding = "12px 35px";
+      card_btn.style.backgroundColor = "#7AB730";
+      card_btn.innerText = "ORDER NOW";
+      card_btn.style.color = "white";
+      card_btn.style.border = "1px solid white";
+      card_btn.style.fontWeight = "500";
+      card_btn.style.fontSize = "16px";
+      btn_box.appendChild(card_btn);
+
+      var card_bx = document.createElement("div");
+      console.log(card_bx);
+      card_bx.style.height = "75vh";
+      card_bx.style.width = "31%";
+      // card_bx.style.border = "1px solid blue";
+      card_bx.style.backgroundColor = "#F3F3F3";
+      card_bx.style.padding = "1px";
+      card_mainbx.appendChild(card_bx);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "30px";
+      h6.style.marginTop = "50px";
+      h6.style.textAlign = "center";
+      h6.innerHTML = "EXTENDED";
+      card_bx.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "600";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "10px";
+      para2.style.textAlign = "center";
+      para2.innerHTML = "The Best Choice";
+      card_bx.appendChild(para2);
+
+      var numb_div = document.createElement("div");
+      console.log(numb_div);
+      numb_div.style.height = "15vh";
+      numb_div.style.width = "100%";
+      numb_div.style.backgroundColor = "#7AB730";
+      numb_div.style.marginTop = "30px";
+      numb_div.style.textAlign = "center";
+      card_bx.appendChild(numb_div);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "white";
+      h1.style.lineHeight = "15vh";
+      h1.innerText = "$149/ Mo";
+      h1.style.fontSize = "45px";
+      numb_div.appendChild(h1);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "30px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "HTML5 & CSS3";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "55%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Bootstrap v5";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "60%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Responsive Layout";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "47.5%";
+      para2.appendChild(icone);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "25px";
+      para2.style.paddingLeft = " 30px";
+      para2.innerHTML = "Browsers Compatibility";
+      card_bx.appendChild(para2);
+
+      var icone = document.createElement("i");
+      console.log(icone);
+      icone.setAttribute("class", "fa-solid fa-check");
+      icone.style.color = "#7AB730";
+      icone.style.marginLeft = "38.5%";
+      para2.appendChild(icone);
+
+      var btn_box = document.createElement("div");
+      console.log(btn_box);
+      btn_box.style.height = "auto";
+      btn_box.style.width = "max-content";
+      btn_box.style.margin = "auto";
+      btn_box.style.marginTop = "30px";
+      card_bx.appendChild(btn_box);
+
+      var card_btn = document.createElement("button");
+      console.log(card_btn);
+      card_btn.style.padding = "12px 35px";
+      card_btn.style.backgroundColor = "#7AB730";
+      card_btn.innerText = "ORDER NOW";
+      card_btn.style.color = "white";
+      card_btn.style.border = "1px solid white";
+      card_btn.style.fontWeight = "500";
+      card_btn.style.fontSize = "16px";
+      btn_box.appendChild(card_btn);
+
+      // <--------------Team-Members-Section-Start------------->
+      // <=====================================================>
+      var team_container = document.createElement("div");
+      console.log(team_container);
+      team_container.style.height = "auto";
+      team_container.style.width = "100%";
+      // team_container.style.border = "1px solid black";
+      team_container.style.paddingBottom = "5%";
+      document.body.appendChild(team_container);
+
+      var content_box = document.createElement("div");
+      console.log(content_box);
+      content_box.style.height = "auto";
+      content_box.style.width = "60%";
+      content_box.style.marginLeft = "7.5%";
+      content_box.style.marginTop = "4%";
+      content_box.style.borderLeft = "5px solid #7AB730";
+      content_box.style.padding = "0px 50px";
+      team_container.appendChild(content_box);
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      para1.style.color = "#7AB730";
+      para1.style.fontWeight = "500";
+      para1.innerHTML = "TEAM MEMBERS";
+      content_box.appendChild(para1);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "black";
+      h1.style.fontSize = "50px";
+      h1.innerHTML = "QUALIFIED PETS CARE </br> PROFESSIONALS";
+      content_box.appendChild(h1);
+
+      //  <-----------------Full-Name-Section-Start---------------->
+      //  <========================================================>
+
+      var design_box = document.createElement("div");
+      console.log(design_box);
+      design_box.style.height = "auto";
+      design_box.style.width = "85%";
+      design_box.style.margin = "auto";
+      design_box.style.marginTop = "3%";
+      // design_box.style.border = "1px solid red";
+      design_box.style.display = "flex";
+      design_box.style.justifyContent = "space-between";
+      design_box.style.position = "relative";
+      team_container.appendChild(design_box);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      design_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/team-1.jpg)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "22px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "FULL NAME";
+      pic_smbx2.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "5px";
+      para2.innerHTML = "Designation";
+      pic_smbx2.appendChild(para2);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      design_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/team-2.jpg)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "22px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "FULL NAME";
+      pic_smbx2.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "5px";
+      para2.innerHTML = "Designation";
+      pic_smbx2.appendChild(para2);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      design_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/team-3.jpg)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "22px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "FULL NAME";
+      pic_smbx2.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "5px";
+      para2.innerHTML = "Designation";
+      pic_smbx2.appendChild(para2);
+
+      var pic_mainbx = document.createElement("div");
+      console.log(pic_mainbx);
+      pic_mainbx.style.height = "auto";
+      pic_mainbx.style.width = "23%";
+      // pic_mainbx.style.border = "1px solid blue";
+      pic_mainbx.style.backgroundColor = "#F3F3F3";
+      pic_mainbx.style.padding = "1px";
+      design_box.appendChild(pic_mainbx);
+
+      var pic_smbx1 = document.createElement("div");
+      console.log(pic_smbx1);
+      pic_smbx1.style.height = "45vh";
+      pic_smbx1.style.width = "100%";
+      // pic_smbx1.style.border = "1px solid cyan";
+      pic_smbx1.style.backgroundImage = "url(./Pet-images/team-4.jpg)";
+      pic_smbx1.style.backgroundSize = "100% auto";
+      pic_smbx1.style.backgroundRepeat = "no-repeat";
+      pic_mainbx.appendChild(pic_smbx1);
+
+      var pic_smbx2 = document.createElement("div");
+      console.log(pic_smbx2);
+      pic_smbx2.style.height = "10vh";
+      pic_smbx2.style.width = "100%";
+      // pic_smbx2.style.border = "1px solid cyan";
+      pic_smbx2.style.textAlign = "center";
+      pic_mainbx.appendChild(pic_smbx2);
+
+      var h6 = document.createElement("h6");
+      console.log(h6);
+      h6.style.color = "black";
+      h6.style.fontWeight = "600";
+      h6.style.fontSize = "22px";
+      h6.style.marginTop = "5px";
+      h6.innerHTML = "FULL NAME";
+      pic_smbx2.appendChild(h6);
+
+      var para2 = document.createElement("p");
+      console.log(para2);
+      para2.style.color = "#656565";
+      para2.style.fontWeight = "400";
+      para2.style.fontSize = "17px";
+      para2.style.marginTop = "5px";
+      para2.innerHTML = "Designation";
+      pic_smbx2.appendChild(para2);
+
+      var arrow_mainbx = document.createElement("div");
+      console.log(arrow_mainbx);
+      arrow_mainbx.style.height = "auto";
+      arrow_mainbx.style.width = "4%";
+      // arrow_mainbx.style.border = "1px solid black";
+      arrow_mainbx.style.position = "absolute";
+      arrow_mainbx.style.top = "30%";
+      arrow_mainbx.style.right = "-1.5%";
+      arrow_mainbx.style.display = "flex";
+      arrow_mainbx.style.flexDirection = "column";
+      arrow_mainbx.style.alignItems = "center";
+      arrow_mainbx.style.justifyContent = "space-between";
+      design_box.appendChild(arrow_mainbx);
+
+      var arrow_smbx1 = document.createElement("div");
+      console.log(arrow_smbx1);
+      arrow_smbx1.style.height = "7vh";
+      arrow_smbx1.style.width = "100%";
+      // arrow_smbx1.style.border = "1px solid black";
+      arrow_smbx1.style.textAlign = "center";
+      arrow_smbx1.style.backgroundColor = "#7AB730";
+      arrow_mainbx.appendChild(arrow_smbx1);
+
+      var ic = document.createElement("i");
+      console.log(ic);
+      ic.style.color = "white";
+      ic.style.lineHeight = "7vh";
+      ic.style.fontSize = "20px";
+      ic.setAttribute("class", "fa-solid fa-arrow-left");
+      arrow_smbx1.appendChild(ic);
+
+      var arrow_smbx1 = document.createElement("div");
+      console.log(arrow_smbx1);
+      arrow_smbx1.style.height = "7vh";
+      arrow_smbx1.style.width = "100%";
+      // arrow_smbx1.style.border = "1px solid black";
+      arrow_smbx1.style.marginTop = "20px";
+      arrow_smbx1.style.textAlign = "center";
+      arrow_smbx1.style.backgroundColor = "#7AB730";
+      arrow_mainbx.appendChild(arrow_smbx1);
+
+      var ic = document.createElement("i");
+      console.log(ic);
+      ic.style.color = "white";
+      ic.style.lineHeight = "7vh";
+      ic.style.fontSize = "20px";
+      ic.setAttribute("class", "fa-solid fa-arrow-right");
+      arrow_smbx1.appendChild(ic);
+
+      // <----------------------Client-Section-Start------------------>
+
+      let secondlast = document.createElement("div");
+      secondlast.style.width = "100%";
+      secondlast.style.height = "75vh";
+      secondlast.style.backgroundImage = "url(./Pet-images/testimonial.jpg)";
+      secondlast.style.backgroundSize = "cover";
+      secondlast.style.position = "relative";
+      // secondlast.style.border = "1px solid black";
+      document.body.appendChild(secondlast);
+
+      let secondlastwritten = document.createElement("div");
+      secondlastwritten.style.width = "50%";
+      secondlastwritten.style.height = "55vh";
+      secondlastwritten.style.position = "absolute";
+      secondlastwritten.style.top = "15%";
+      secondlastwritten.style.right = "5%";
+      secondlastwritten.style.display = "flex";
+      secondlastwritten.style.flexDirection = "column";
+      secondlastwritten.style.justifyContent = -"center";
+      secondlastwritten.style.alignItems = "center";
+      secondlastwritten.style.padding = "50px";
+      secondlastwritten.style.backgroundColor = "white";
+      secondlast.appendChild(secondlastwritten);
+
+      let secondlastwrittenpic = document.createElement("img");
+      secondlastwrittenpic.setAttribute(
+        "src",
+        "./Pet-images/testimonial-1.jpg"
+      );
+      secondlastwrittenpic.style.width = "100px";
+      secondlastwrittenpic.style.height = "100px";
+      secondlastwritten.appendChild(secondlastwrittenpic);
+
+      var secondLastwrittenp = document.createElement("p");
+      secondLastwrittenp.innerHTML =
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur hic accusamus dignissimos aut cumque, in maiores dolore vitae magnam dolorum consequuntur omnis suscipit mollitia nostrum voluptatem totam quasi?";
+      secondLastwrittenp.style.margin = "20px 0";
+      secondLastwrittenp.style.lineHeight = "24px";
+      secondLastwrittenp.style.fontSize = "16px";
+      secondLastwrittenp.style.color = "grey";
+      secondLastwrittenp.style.padding = "10px";
+      secondlastwritten.appendChild(secondLastwrittenp);
+
+      var secondLastwrittenh2 = document.createElement("h2");
+      secondLastwrittenh2.innerHTML = "CLIENT NAME";
+      secondlastwritten.appendChild(secondLastwrittenh2);
+
+      var secondLastwrittenp = document.createElement("p");
+      secondLastwrittenp.innerHTML = "Profession";
+      secondLastwrittenp.style.margin = "20px 0";
+      secondLastwrittenp.style.fontSize = "20px";
+      secondLastwrittenp.style.color = "grey";
+      secondlastwritten.appendChild(secondLastwrittenp);
+
+      var arrow1 = document.createElement("i");
+      arrow1.setAttribute("class", "fa-solid fa-arrow-left");
+      arrow1.style.position = "absolute";
+      arrow1.style.top = "46%";
+      arrow1.style.left = "0px";
+      arrow1.style.padding = "14px 18px";
+      arrow1.style.backgroundColor = "#7AB730";
+      arrow1.style.color = "white";
+      secondlastwritten.appendChild(arrow1);
+
+      var arrow1 = document.createElement("i");
+      arrow1.setAttribute("class", "fa-solid fa-arrow-right");
+      arrow1.style.position = "absolute";
+      arrow1.style.top = "46%";
+      arrow1.style.right = "0px";
+      arrow1.style.padding = "14px 18px";
+      arrow1.style.backgroundColor = "#7AB730";
+      arrow1.style.color = "white";
+      secondlastwritten.appendChild(arrow1);
+
+      // <------------------Lasted-Blog-Section-Start-------------->
+
+      var last_cont = document.createElement("div");
+      console.log(last_cont);
+      last_cont.style.height = "auto";
+      last_cont.style.width = "100%";
+      // last_cont.style.border = "1px solid black";
+      last_cont.style.paddingBottom = "3%";
+      document.body.appendChild(last_cont);
+
+      var content_box = document.createElement("div");
+      console.log(content_box);
+      content_box.style.height = "auto";
+      content_box.style.width = "60%";
+      content_box.style.marginLeft = "7.5%";
+      content_box.style.marginTop = "4%";
+      content_box.style.borderLeft = "5px solid #7AB730";
+      content_box.style.padding = "0px 50px";
+      last_cont.appendChild(content_box);
+
+      var para1 = document.createElement("p");
+      console.log(para1);
+      para1.style.color = "#7AB730";
+      para1.style.fontWeight = "500";
+      para1.innerHTML = "LATEST BLOG";
+      content_box.appendChild(para1);
+
+      var h1 = document.createElement("h1");
+      console.log(h1);
+      h1.style.color = "black";
+      h1.style.fontSize = "50px";
+      h1.innerHTML = "LATEST ARTICLES FROM </br> OUR BLOG POST";
+      content_box.appendChild(h1);
+
+      let web_cont = document.createElement("div");
+      // web_cont.style.border = "1px solid black";
+      web_cont.style.padding = "30px 60px";
+      // web_cont.style.margin = "10px 0";
+      web_cont.style.display = "flex";
+      web_cont.style.justifyContent = "space-evenly";
+      last_cont.appendChild(web_cont);
+
+      var lastcard = document.createElement("div");
+      lastcard.style.width = "44%";
+      // lastcard.style.border = "1px solid red";
+      lastcard.style.height = "45vh";
+      lastcard.style.display = "flex";
+      web_cont.appendChild(lastcard);
+
+      var lastpic = document.createElement("div");
+      lastpic.style.width = "40%";
+      lastpic.style.height = "100%";
+      // lastpic.style.border = "1px solid red"
+      lastpic.style.backgroundImage = "url('./pet-img/blog-1.jpg')";
+      lastpic.style.backgroundPosition = "center";
+      lastpic.style.backgroundSize = "cover";
+      lastcard.appendChild(lastpic);
+
+      var lastwritten = document.createElement("div");
+      lastwritten.style.width = "60%";
+      lastwritten.style.height = "100%";
+      lastwritten.style.position = "relative";
+      lastwritten.style.padding = "50px 20px";
+      lastwritten.style.backgroundColor = "#F3F3F3";
+      // lastwritten.style.border = "1px solid black";
+      lastcard.appendChild(lastwritten);
+
+      var lasticon = document.createElement("i");
+      lasticon.setAttribute("class", "fa-solid fa-bookmark");
+      lasticon.style.color = "grey";
+      lastwritten.appendChild(lasticon);
+
+      var lastspan = document.createElement("span");
+      lastspan.innerHTML = " Web Design";
+      lastspan.style.color = "#6A6565";
+      lastspan.style.fontSize = "15px";
+      lastspan.style.margin = " 0 10px";
+      lastwritten.appendChild(lastspan);
+
+      var lasticon = document.createElement("i");
+      lasticon.setAttribute("class", "fa-solid fa-calendar-days");
+      lasticon.style.color = "grey";
+      lastwritten.appendChild(lasticon);
+
+      var lastspan = document.createElement("span");
+      lastspan.innerHTML = " 01 Jan, 2045";
+      lastspan.style.color = "#6A6565";
+      lastspan.style.fontSize = "15px";
+      lastspan.style.margin = " 0 10px";
+      lastwritten.appendChild(lastspan);
+
+      var lasth1 = document.createElement("h1");
+      lasth1.innerHTML = "DOLOR SIT MAGNA REBUM CLITA REBUM DOLOR";
+      lasth1.style.fontSize = "20px";
+      lasth1.style.margin = "15px 0";
+      lastwritten.appendChild(lasth1);
+
+      var lastp = document.createElement("p");
+      lastp.innerHTML =
+        "Ipsum sed lorem amet dolor amet duo ipsum amet et dolore est stet tempor eos dolor";
+      lastp.style.color = "#6A6565";
+      lastp.style.fontSize = "18px";
+      lastp.style.letterSpacing = "0.5px";
+      lastwritten.appendChild(lastp);
+
+      var lastp1 = document.createElement("p");
+      lastp1.innerHTML = "READ MORE";
+      lastp1.style.color = "#7AB730";
+      lastp1.style.margin = "30px 0";
+      lastp1.style.fontWeight = "500";
+      lastwritten.appendChild(lastp1);
+
+      var lasticon2 = document.createElement("i");
+      lasticon2.setAttribute("class", "fa-solid fa-arrow-right");
+      lasticon2.style.marginLeft = "10px";
+      lastp1.appendChild(lasticon2);
+
+      var lastcard = document.createElement("div");
+      lastcard.style.width = "44%";
+      // lastcard.style.border = "1px solid red";
+      lastcard.style.height = "45vh";
+      lastcard.style.display = "flex";
+      web_cont.appendChild(lastcard);
+
+      var lastpic = document.createElement("div");
+      lastpic.style.width = "40%";
+      lastpic.style.height = "100%";
+      // lastpic.style.border = "1px solid red"
+      lastpic.style.backgroundImage = "url('./pet-img/blog-2.jpg')";
+      lastpic.style.backgroundPosition = "center";
+      lastpic.style.backgroundSize = "cover";
+      lastcard.appendChild(lastpic);
+
+      var lastwritten = document.createElement("div");
+      lastwritten.style.width = "60%";
+      lastwritten.style.height = "100%";
+      lastwritten.style.position = "relative";
+      lastwritten.style.padding = "50px 20px";
+      lastwritten.style.backgroundColor = "#F3F3F3";
+      // lastwritten.style.border = "1px solid black";
+      lastcard.appendChild(lastwritten);
+
+      var lasticon = document.createElement("i");
+      lasticon.setAttribute("class", "fa-solid fa-bookmark");
+      lasticon.style.color = "grey";
+      lastwritten.appendChild(lasticon);
+
+      var lastspan = document.createElement("span");
+      lastspan.innerHTML = " Web Design";
+      lastspan.style.color = "#6A6565";
+      lastspan.style.fontSize = "15px";
+      lastspan.style.margin = " 0 10px";
+      lastwritten.appendChild(lastspan);
+
+      var lasticon = document.createElement("i");
+      lasticon.setAttribute("class", "fa-solid fa-calendar-days");
+      lasticon.style.color = "grey";
+      lastwritten.appendChild(lasticon);
+
+      var lastspan = document.createElement("span");
+      lastspan.innerHTML = " 01 Jan, 2045";
+      lastspan.style.color = "#6A6565";
+      lastspan.style.fontSize = "15px";
+      lastspan.style.margin = " 0 10px";
+      lastwritten.appendChild(lastspan);
+
+      var lasth1 = document.createElement("h1");
+      lasth1.innerHTML = "DOLOR SIT MAGNA REBUM CLITA REBUM DOLOR";
+      lasth1.style.fontSize = "20px";
+      lasth1.style.margin = "15px 0";
+      lastwritten.appendChild(lasth1);
+
+      var lastp = document.createElement("p");
+      lastp.innerHTML =
+        "Ipsum sed lorem amet dolor amet duo ipsum amet et dolore est stet tempor eos dolor";
+      lastp.style.color = "#6A6565";
+      lastp.style.fontSize = "18px";
+      lastp.style.letterSpacing = "0.5px";
+      lastwritten.appendChild(lastp);
+
+      var lastp1 = document.createElement("p");
+      lastp1.innerHTML = "READ MORE";
+      lastp1.style.color = "#7AB730";
+      lastp1.style.margin = "30px 0";
+      lastp1.style.fontWeight = "500";
+      lastwritten.appendChild(lastp1);
+
+      var lasticon2 = document.createElement("i");
+      lasticon2.setAttribute("class", "fa-solid fa-arrow-right");
+      lasticon2.style.marginLeft = "10px";
+      lastp1.appendChild(lasticon2);
+
+      // <---------------------Footer-Section-Start------------------->
+
+      let footer = document.createElement("div");
+      footer.style.height = "50vh";
+      // footer.style.border = "1px solid black";
+      footer.style.display = "flex";
+      footer.style.padding = "50px 90px";
+      footer.style.justifyContent = "center";
+      footer.style.backgroundColor = "#F3F3F3";
+      document.body.appendChild(footer);
+
+      var footercard1 = document.createElement("div");
+      footercard1.style.width = "25%";
+      footercard1.style.height = "38vh";
+      footercard1.style.paddingLeft = "20px";
+      // footercard1.style.border = "1px solid red";
+      footer.appendChild(footercard1);
+
+      var para_Brd = document.createElement("div");
+      para_Brd.style.height = "max-content";
+      para_Brd.style.width = "max-content";
+      para_Brd.style.borderLeft = "5px solid #7AB730 ";
+      footercard1.appendChild(para_Brd);
+
+      var footerh2 = document.createElement("h3");
+      footerh2.innerHTML = "GET IN TOUCH";
+      footerh2.style.marginLeft = "20px";
+      para_Brd.appendChild(footerh2);
+
+      var footerp1 = document.createElement("p");
+      footerp1.innerHTML =
+        "No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor";
+      footerp1.style.color = "#6A6565";
+      footerp1.style.margin = "20px 0";
+      footerp1.style.fontSize = "17px";
+      footerp1.style.letterSpacing = "0.5px";
+      footercard1.appendChild(footerp1);
+
+      var footericon = document.createElement("i");
+      footericon.setAttribute("class", "fa-solid fa-location-dot");
+      footericon.style.color = "#7AB730";
+      footericon.style.margin = "10px 0";
+      footercard1.appendChild(footericon);
+
+      var footerp2 = document.createElement("span");
+      footerp2.innerHTML = "123 Street, New York, USA";
+      footerp2.style.marginLeft = "10px";
+      footerp2.style.color = "#6A6565";
+      footercard1.appendChild(footerp2);
+
+      var footercard1div = document.createElement("div");
+      // footercard1div.style.border="1px black solid"
+      footercard1.appendChild(footercard1div);
+
+      var footericon = document.createElement("i");
+      footericon.setAttribute("class", "fa-regular fa-envelope-open");
+      footericon.style.color = "#7AB730";
+      footericon.style.margin = "10px 0";
+      footercard1div.appendChild(footericon);
+
+      var footerp2 = document.createElement("span");
+      footerp2.innerHTML = "mail@domain.com";
+      footerp2.style.margin = "0 10px";
+      footerp2.style.color = "#6A6565";
+      footercard1div.appendChild(footerp2);
+
+      var footericon = document.createElement("i");
+      footericon.setAttribute("class", "fa-solid fa-phone");
+      footericon.style.color = "#7AB730";
+      footericon.style.margin = "10px 0";
+      footercard1.appendChild(footericon);
+
+      var footerp2 = document.createElement("span");
+      footerp2.innerHTML = "+012 345 67890";
+      footericon.style.margin = "10px 0";
+      footerp2.style.marginLeft = "10px";
+      footerp2.style.color = "#6A6565";
+      footercard1.appendChild(footerp2);
+
+      var footercard1 = document.createElement("div");
+      footercard1.style.width = "25%";
+      footercard1.style.height = "38vh";
+      footercard1.style.paddingLeft = "20px";
+      // footercard1.style.border = "1px solid red";
+      footer.appendChild(footercard1);
+
+      var para_Brd = document.createElement("div");
+      para_Brd.style.height = "max-content";
+      para_Brd.style.width = "max-content";
+      para_Brd.style.borderLeft = "5px solid #7AB730 ";
+      footercard1.appendChild(para_Brd);
+
+      var footerh2 = document.createElement("h3");
+      footerh2.innerHTML = "QUICK LINKS";
+      footerh2.style.marginLeft = "20px";
+      para_Brd.appendChild(footerh2);
+
+      var footerul = document.createElement("ul");
+      // footerul.style.border = "2px solid red";
+      footerul.style.width = "200px";
+      footerul.style.listStyle = "None";
+      footerul.style.margin = "20px 0";
+      footercard1.appendChild(footerul);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "0px";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Home";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "About Us";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Our Services";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Meet The Team";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Latest Blog";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Contact Us";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footercard1 = document.createElement("div");
+      footercard1.style.width = "25%";
+      footercard1.style.height = "38vh";
+      footercard1.style.paddingLeft = "20px";
+      // footercard1.style.border = "1px solid red";
+      footer.appendChild(footercard1);
+
+      var para_Brd = document.createElement("div");
+      para_Brd.style.height = "max-content";
+      para_Brd.style.width = "max-content";
+      para_Brd.style.borderLeft = "5px solid #7AB730 ";
+      footercard1.appendChild(para_Brd);
+
+      var footerh2 = document.createElement("h3");
+      footerh2.innerHTML = "POPULAR LINKS";
+      footerh2.style.marginLeft = "20px";
+      para_Brd.appendChild(footerh2);
+
+      var footerul = document.createElement("ul");
+      // footerul.style.border = "2px solid red";
+      footerul.style.width = "200px";
+      footerul.style.listStyle = "None";
+      footerul.style.margin = "20px 0";
+      footercard1.appendChild(footerul);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "0px";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Home";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "About Us";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Our Services";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Meet The Team";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Latest Blog";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footerliicon = document.createElement("i");
+      footerliicon.setAttribute("class", "fa-solid fa-arrow-right");
+      footerliicon.style.color = "#7AB730";
+      footerliicon.style.marginTop = "16px";
+      footerliicon.style.display = "block";
+      footerul.appendChild(footerliicon);
+
+      var footerli = document.createElement("li");
+      footerli.innerHTML = "Contact Us";
+      footerli.style.color = "#6A6565";
+      footerli.style.fontWeight = "400";
+      footerli.style.display = "inline-block";
+      footerli.style.paddingLeft = "10px";
+      footerliicon.appendChild(footerli);
+
+      var footercard1 = document.createElement("div");
+      footercard1.style.width = "25%";
+      footercard1.style.height = "38vh";
+      footercard1.style.paddingLeft = "20px";
+      // footercard1.style.border = "1px solid red";
+      footer.appendChild(footercard1);
+
+      var para_Brd = document.createElement("div");
+      para_Brd.style.height = "max-content";
+      para_Brd.style.width = "max-content";
+      para_Brd.style.borderLeft = "5px solid #7AB730 ";
+      footercard1.appendChild(para_Brd);
+
+      var footerh2 = document.createElement("h3");
+      footerh2.innerHTML = "NEWSLATTER";
+      footerh2.style.marginLeft = "20px";
+      para_Brd.appendChild(footerh2);
+
+      let footerinput = document.createElement("input");
+      footerinput.style.height = "60px";
+      footerinput.style.width = "160px";
+      footerinput.setAttribute("placeholder", "Your Email");
+      footerinput.style.padding = "0 10px";
+      footerinput.style.fontSize = "16px";
+      footerinput.style.marginTop = "20px";
+      footercard1.appendChild(footerinput);
+
+      let button = document.createElement("button");
+      button.innerHTML = "SIGN UP";
+      button.style.color = "white";
+      button.style.backgroundColor = "#7AB730";
+      button.style.border = "none";
+      button.style.padding = "19px 20px";
+      button.style.fontSize = "17px";
+      footercard1.appendChild(button);
+
+      var footerh2 = document.createElement("h3");
+      footerh2.innerHTML = "FOLLOW US";
+      footerh2.style.color = "#212121";
+      footerh2.style.margin = "20px 0";
+      footerh2.style.fontSize = "18px";
+      footercard1.appendChild(footerh2);
+
+      var footericons = document.createElement("i");
+      footericons.setAttribute("class", "fa-brands fa-twitter");
+      footericons.style.border = "1px solid rgb(122, 183, 48)";
+      footericons.style.padding = "8px";
+      footericons.style.color = "rgb(122, 183, 48)";
+      footercard1.appendChild(footericons);
+
+      var footericons = document.createElement("i");
+      footericons.setAttribute("class", "fa-brands fa-square-facebook");
+      footericons.style.border = "1px solid rgb(122, 183, 48)";
+      footericons.style.padding = "8px";
+      footericons.style.margin = "0 5px";
+      footericons.style.color = "rgb(122, 183, 48)";
+      footercard1.appendChild(footericons);
+
+      var footericons = document.createElement("i");
+      footericons.setAttribute("class", "fa-brands fa-linkedin");
+      footericons.style.border = "1px solid rgb(122, 183, 48)";
+      footericons.style.padding = "8px";
+      footericons.style.color = "rgb(122, 183, 48)";
+      footercard1.appendChild(footericons);
+
+      var footericons = document.createElement("i");
+      footericons.setAttribute("class", "fa-brands fa-instagram");
+      footericons.style.border = "1px solid rgb(122, 183, 48)";
+      footericons.style.padding = "8px";
+      footericons.style.margin = "0 5px";
+      footericons.style.color = "rgb(122, 183, 48)";
+      footercard1.appendChild(footericons);
+
+      var extrafooter = document.createElement("div");
+      extrafooter.style.height = "10vh";
+      extrafooter.style.backgroundColor = "#F3F3F3";
+      document.body.appendChild(extrafooter);
+
+      var extraaa = document.createElement("p");
+      extraaa.innerHTML =
+        "Terms & Conditions | Privacy Policy | Customer Support | Payments | Help | FAQs";
+      extraaa.style.textAlign = "center";
+      extraaa.style.color = "#6A6565";
+      extraaa.style.fontSize = "18px";
+      extrafooter.appendChild(extraaa);
+
+      let extra1 = document.createElement("div");
+      extra1.style.height = "10vh";
+      extra1.style.backgroundColor = "#212121";
+      extra1.style.padding = "1px";
+      document.body.appendChild(extra1);
+
+      var extra1p = document.createElement("p");
+      extra1p.innerHTML = "© Your Site Name. All Rights Reserved.";
+      extra1p.style.color = "white";
+      extra1p.style.width = "max-content";
+      extra1p.style.margin = "25px 100px";
+      extra1.appendChild(extra1p);
+
+      var extra1p = document.createElement("p");
+      extra1p.innerHTML = "Designed by HTML Codex";
+      extra1p.style.color = "white";
+      extra1p.style.width = "max-content";
+      extra1p.style.margin = "0px 1210px";
+      extra1p.style.marginTop = "-45px";
+      extra1.appendChild(extra1p);
+
+      // --------------------Anchor-Tag----------------------
+      var anchor = document.createElement("a");
+      anchor.setAttribute("class", "fa-solid fa-arrow-up");
+      anchor.style.position = "fixed";
+      anchor.style.bottom = "1%";
+      anchor.style.right = "2%";
+      anchor.style.padding = "30px 20px";
+      anchor.style.backgroundColor = "#7AB730";
+      anchor.style.color = "white";
+      document.body.appendChild(anchor);
+    </script>
+  </body>
+</html>
